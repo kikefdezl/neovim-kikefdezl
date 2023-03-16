@@ -1,3 +1,26 @@
+### My custom Neovim config, based on NvChad
+
+Installation on Ubuntu:
+1. Install Neovim > 0.8 (not from apt).
+2. Get JetBrainsMono font.
+```bash
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/JetBrainsMono.zip
+unzip -o JetBrainsMono.zip -d ~/.local/share/fonts/
+rm JetBrainsMono.zip
+```
+3. Install `xclip` for clipboard management.
+4. Install Neovim Config.
+```bash
+sudo apt install xclip
+sudo rm -rf ~/.config/nvim
+sudo rm -rf ~/.local/share/nvim
+sudo rm -rf ~/.cache/nvim
+git clone git@github.com:kikefdezl/neovim-kikefdezl.git ~/.config/nvim --depth 1
+nvim
+```
+
+Original README.md below.
+
 <h1 align="center">NvChad</h1>
 
 <div align="center">

@@ -53,3 +53,12 @@ sudo rm -rf ~/.config/nvim/lua/custom
 git clone git@github.com:kikefdezl/neovim-kikefdezl.git ~/.config/nvim/lua/custom --depth 1
 nvim
 ```
+
+### 6. LSP
+
+Install desired LSPs in Neovim running `:Mason`, e.g:
+```bash
+jedi-language-server
+rust-analyzer
+json-lsp
+```

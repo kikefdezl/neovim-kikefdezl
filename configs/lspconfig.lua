@@ -2,10 +2,9 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-
 -- if you just want default config for the servers then put them in a table
 local servers = { "html", "cssls", "tsserver", "clangd",
-  "jedi_language_server", "rust_analyzer"
+  "jedi_language_server", "rust_analyzer", "json_lsp"
 }
 
 for _, lsp in ipairs(servers) do

@@ -1,5 +1,5 @@
 ### My custom Neovim config, based on NvChad
-
+![Screenshot](.thumbnails/screenshot.png)
 Installation on Ubuntu:
 1. Install Neovim > 0.8 (not from apt).
 2. Get JetBrainsMono font.

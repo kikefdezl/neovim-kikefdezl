@@ -5,3 +5,5 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+vim.cmd.set "relativenumber"
+vim.cmd.set "clipboard+=unnamedplus"
